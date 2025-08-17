@@ -1,6 +1,3 @@
-import React from "react";
-// import { MdShoppingBasket } from "react-icons/md";
-
 const CartIcon = () => {
   return (
     <>

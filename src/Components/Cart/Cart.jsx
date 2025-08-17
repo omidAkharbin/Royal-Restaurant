@@ -1,4 +1,3 @@
-import React from "react";
 import {useState, useContext} from "react";
 import classes from "./Cart.module.css";
 import Modal from "../UI/Modal";
@@ -32,7 +31,7 @@ const Cart = (props) => {
     setSubmittingFirebase(true);
 
     await fetch(
-      "      https://products-c9843-default-rtdb.firebaseio.com/orders.json",
+      "https://products-c9843-default-rtdb.firebaseio.com/orders.json",
       {
         method: "post",
         body: JSON.stringify({
@@ -74,7 +73,7 @@ const Cart = (props) => {
       )}
     </div>
   );
-  
+
   const modalContent = (
     <>
       {cartItems}

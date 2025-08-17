@@ -5,8 +5,7 @@
   animation: meals-appear 1s ease-out forwards;
 }
 
-
-.mealsloading{
+.mealsloading {
   text-align: center;
   font-size: 17px;
   background-color: #2b2b2b;

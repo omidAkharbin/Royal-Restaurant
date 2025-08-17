@@ -1,4 +1,3 @@
- 
 import classes from "./MealsSummary.module.css";
 
 const MealsSummary = () => {
