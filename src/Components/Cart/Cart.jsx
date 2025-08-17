@@ -31,11 +31,8 @@ const Cart = (props) => {
   const submitOrderHandler = async (userData) => {
     setSubmittingFirebase(true);
 
-    //  const ResponseFirebase =  await fetch("https://reactproject-603e7-default-rtdb.firebaseio.com/orders.json" , {
-    // mesl marhale ghabl error handeling
-
     await fetch(
-      "https://myreactdb-6adf0-default-rtdb.europe-west1.firebasedatabase.app/orders.json",
+      "      https://products-c9843-default-rtdb.firebaseio.com/orders.json",
       {
         method: "post",
         body: JSON.stringify({

@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import classes from "./AvailableMeals.module.css";
 import {useEffect, useState} from "react";
 import Card from "../UI/Card";
@@ -39,8 +39,9 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const DBresponse = await fetch(
-        "https://myreactdb-6adf0-default-rtdb.europe-west1.firebasedatabase.app/meals.json"
+        "https://products-c9843-default-rtdb.firebaseio.com/mainmeal.json"
       );
+      
 
       if (!DBresponse.ok) {
         throw new Error("failed to fetch meals");
