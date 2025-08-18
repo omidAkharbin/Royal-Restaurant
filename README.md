@@ -1,8 +1,14 @@
-# React + Vite
+# [Shopping Resturant Menu]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is Shopping Resturant Menu receives all the information from the database and sends all the information of your order successfully
 
-Currently, two official plugins are available:
+![Project Screenshot](./src/assets/Demo.png)
+✨ **Live Demo:** [https://omidakharbin.github.io/Royal-Restaurant/](https://omidakharbin.github.io/Royal-Restaurant/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Built With
+
+List the major technologies, frameworks, and tools you used.
+
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
