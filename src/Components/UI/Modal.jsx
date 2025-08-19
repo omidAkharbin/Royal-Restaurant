@@ -13,7 +13,7 @@ const ModalOverlay = (props) => {
   );
 };
 
-// where to portal
+// where i'm going to portal
 const portalElement = document.getElementById("overlays");
 
 const Modal = (props) => {
